@@ -48,3 +48,13 @@ There is also a script that will convert a DMARC aggregate report on the command
 ```
 dmarc2html-cli dmarc.tar.gz
 ```
+
+## spamhaus
+
+This filter checks incoming connections against the Spamhaus blacklist.
+You'll need a Spamhaus Data Query Service key, which you'll enter in `spamhauslib.py` as the `spamhaus_dqs_key`.
+You probably qualify for a free key from [here](https://www.spamhaus.com/free-trial/sign-up-for-a-free-data-query-service-account/).
+
+```
+filter spamhaus proc-exec "/usr/local/bin/spamhaus.py mymailserver.example.com"
+```
