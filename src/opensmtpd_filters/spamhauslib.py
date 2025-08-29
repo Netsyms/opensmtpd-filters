@@ -12,7 +12,7 @@ This program is free software: you can redistribute it and/or modify
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-    2014 Evox Computing Ltd
+    2014 Evox Computing Ltd - https://github.com/evoxco/python-spamhaus
     2025 Netsyms Technologies LLC
 """
 
